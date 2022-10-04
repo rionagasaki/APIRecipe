@@ -8,25 +8,57 @@
 
 /* Begin PBXBuildFile section */
 		53CD167428E7B2D8009CF670 /* MyCookingAlbumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD167328E7B2D8009CF670 /* MyCookingAlbumApp.swift */; };
-		53CD167628E7B2D8009CF670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD167528E7B2D8009CF670 /* ContentView.swift */; };
+		53CD167628E7B2D8009CF670 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD167528E7B2D8009CF670 /* HomeView.swift */; };
 		53CD167828E7B2DA009CF670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD167728E7B2DA009CF670 /* Assets.xcassets */; };
 		53CD167B28E7B2DA009CF670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53CD167A28E7B2DA009CF670 /* Preview Assets.xcassets */; };
 		53CD167D28E7B2DA009CF670 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD167C28E7B2DA009CF670 /* Persistence.swift */; };
 		53CD168028E7B2DA009CF670 /* MyCookingAlbum.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 53CD167E28E7B2DA009CF670 /* MyCookingAlbum.xcdatamodeld */; };
+		53CD168728E7B392009CF670 /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD168628E7B392009CF670 /* HomeState.swift */; };
+		53CD168928E7B39A009CF670 /* HomeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD168828E7B39A009CF670 /* HomeAction.swift */; };
+		53CD168B28E7B3AD009CF670 /* HomeReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD168A28E7B3AD009CF670 /* HomeReducer.swift */; };
+		53CD168D28E7B3BA009CF670 /* HomeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD168C28E7B3BA009CF670 /* HomeEnvironment.swift */; };
+		53CD169028E7B45D009CF670 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 53CD168F28E7B45D009CF670 /* ComposableArchitecture */; };
+		53CD169828E826F0009CF670 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD169728E826F0009CF670 /* RecipeView.swift */; };
+		53CD16A528E987C4009CF670 /* MyCookingAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CD16A428E987C4009CF670 /* MyCookingAlbumTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53CD16A628E987C4009CF670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53CD166828E7B2D8009CF670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53CD166F28E7B2D8009CF670;
+			remoteInfo = MyCookingAlbum;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		53CD167028E7B2D8009CF670 /* MyCookingAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCookingAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53CD167328E7B2D8009CF670 /* MyCookingAlbumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCookingAlbumApp.swift; sourceTree = "<group>"; };
-		53CD167528E7B2D8009CF670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53CD167528E7B2D8009CF670 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		53CD167728E7B2DA009CF670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53CD167A28E7B2DA009CF670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53CD167C28E7B2DA009CF670 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		53CD167F28E7B2DA009CF670 /* MyCookingAlbum.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyCookingAlbum.xcdatamodel; sourceTree = "<group>"; };
+		53CD168628E7B392009CF670 /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
+		53CD168828E7B39A009CF670 /* HomeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAction.swift; sourceTree = "<group>"; };
+		53CD168A28E7B3AD009CF670 /* HomeReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeReducer.swift; sourceTree = "<group>"; };
+		53CD168C28E7B3BA009CF670 /* HomeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEnvironment.swift; sourceTree = "<group>"; };
+		53CD169728E826F0009CF670 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		53CD16A228E987C4009CF670 /* MyCookingAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCookingAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CD16A428E987C4009CF670 /* MyCookingAlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCookingAlbumTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		53CD166D28E7B2D8009CF670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CD169028E7B45D009CF670 /* ComposableArchitecture in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53CD169F28E987C4009CF670 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				53CD167228E7B2D8009CF670 /* MyCookingAlbum */,
+				53CD16A328E987C4009CF670 /* MyCookingAlbumTests */,
 				53CD167128E7B2D8009CF670 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				53CD167028E7B2D8009CF670 /* MyCookingAlbum.app */,
+				53CD16A228E987C4009CF670 /* MyCookingAlbumTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,7 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				53CD167328E7B2D8009CF670 /* MyCookingAlbumApp.swift */,
-				53CD167528E7B2D8009CF670 /* ContentView.swift */,
+				53CD169728E826F0009CF670 /* RecipeView.swift */,
+				53CD169B28E981F7009CF670 /* Home */,
 				53CD167728E7B2DA009CF670 /* Assets.xcassets */,
 				53CD167C28E7B2DA009CF670 /* Persistence.swift */,
 				53CD167E28E7B2DA009CF670 /* MyCookingAlbum.xcdatamodeld */,
@@ -71,6 +106,26 @@
 				53CD167A28E7B2DA009CF670 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53CD169B28E981F7009CF670 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				53CD167528E7B2D8009CF670 /* HomeView.swift */,
+				53CD168628E7B392009CF670 /* HomeState.swift */,
+				53CD168828E7B39A009CF670 /* HomeAction.swift */,
+				53CD168A28E7B3AD009CF670 /* HomeReducer.swift */,
+				53CD168C28E7B3BA009CF670 /* HomeEnvironment.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		53CD16A328E987C4009CF670 /* MyCookingAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				53CD16A428E987C4009CF670 /* MyCookingAlbumTests.swift */,
+			);
+			path = MyCookingAlbumTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +144,30 @@
 			dependencies = (
 			);
 			name = MyCookingAlbum;
+			packageProductDependencies = (
+				53CD168F28E7B45D009CF670 /* ComposableArchitecture */,
+			);
 			productName = MyCookingAlbum;
 			productReference = 53CD167028E7B2D8009CF670 /* MyCookingAlbum.app */;
 			productType = "com.apple.product-type.application";
+		};
+		53CD16A128E987C4009CF670 /* MyCookingAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53CD16A828E987C4009CF670 /* Build configuration list for PBXNativeTarget "MyCookingAlbumTests" */;
+			buildPhases = (
+				53CD169E28E987C4009CF670 /* Sources */,
+				53CD169F28E987C4009CF670 /* Frameworks */,
+				53CD16A028E987C4009CF670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CD16A728E987C4009CF670 /* PBXTargetDependency */,
+			);
+			name = MyCookingAlbumTests;
+			productName = MyCookingAlbumTests;
+			productReference = 53CD16A228E987C4009CF670 /* MyCookingAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +182,10 @@
 					53CD166F28E7B2D8009CF670 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					53CD16A128E987C4009CF670 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 53CD166F28E7B2D8009CF670;
+					};
 				};
 			};
 			buildConfigurationList = 53CD166B28E7B2D8009CF670 /* Build configuration list for PBXProject "MyCookingAlbum" */;
@@ -117,11 +197,15 @@
 				Base,
 			);
 			mainGroup = 53CD166728E7B2D8009CF670;
+			packageReferences = (
+				53CD168E28E7B45D009CF670 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 53CD167128E7B2D8009CF670 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				53CD166F28E7B2D8009CF670 /* MyCookingAlbum */,
+				53CD16A128E987C4009CF670 /* MyCookingAlbumTests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +220,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53CD16A028E987C4009CF670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -144,13 +235,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				53CD168028E7B2DA009CF670 /* MyCookingAlbum.xcdatamodeld in Sources */,
+				53CD168B28E7B3AD009CF670 /* HomeReducer.swift in Sources */,
+				53CD168728E7B392009CF670 /* HomeState.swift in Sources */,
+				53CD168928E7B39A009CF670 /* HomeAction.swift in Sources */,
 				53CD167D28E7B2DA009CF670 /* Persistence.swift in Sources */,
-				53CD167628E7B2D8009CF670 /* ContentView.swift in Sources */,
+				53CD169828E826F0009CF670 /* RecipeView.swift in Sources */,
+				53CD167628E7B2D8009CF670 /* HomeView.swift in Sources */,
+				53CD168D28E7B3BA009CF670 /* HomeEnvironment.swift in Sources */,
 				53CD167428E7B2D8009CF670 /* MyCookingAlbumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		53CD169E28E987C4009CF670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CD16A528E987C4009CF670 /* MyCookingAlbumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CD16A728E987C4009CF670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53CD166F28E7B2D8009CF670 /* MyCookingAlbum */;
+			targetProxy = 53CD16A628E987C4009CF670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		53CD168128E7B2DA009CF670 /* Debug */ = {
@@ -325,6 +437,42 @@
 			};
 			name = Release;
 		};
+		53CD16A928E987C4009CF670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6B6GTGPYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCookingAlbum.MyCookingAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCookingAlbum.app/MyCookingAlbum";
+			};
+			name = Debug;
+		};
+		53CD16AA28E987C4009CF670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U6B6GTGPYT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myCookingAlbum.MyCookingAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCookingAlbum.app/MyCookingAlbum";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,7 +494,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		53CD16A828E987C4009CF670 /* Build configuration list for PBXNativeTarget "MyCookingAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53CD16A928E987C4009CF670 /* Debug */,
+				53CD16AA28E987C4009CF670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53CD168E28E7B45D009CF670 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53CD168F28E7B45D009CF670 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53CD168E28E7B45D009CF670 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		53CD167E28E7B2DA009CF670 /* MyCookingAlbum.xcdatamodeld */ = {
